@@ -8,10 +8,12 @@ chmod +x *.sh .\
 ./demo-aws.sh check .\
 ./demo-aws.sh build .\
 ./demo-aws.sh wait .\
-./demo-aws.sh status .\
+./demo-aws.sh status
 
 ./demo-aws.sh update      # site becomes v2 (refresh with Ctrl+F5) .\
 ./demo-aws.sh breakit     # starting v9 fails, the site stays up .\
 ./demo-aws.sh rollback    # back to v1 .\
 ./demo-aws.sh monitor .\
-./demo-aws.sh load .\
+./demo-aws.sh load
+
+
